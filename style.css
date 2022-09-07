@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
 
 html, body{
@@ -17,6 +17,18 @@ html, body{
 
 .navbar{
     margin-bottom: 3em;
+}
+
+.navbar-links ul a{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    text-decoration: none;
+    gap: 1em;
+    margin: 1em;
+    font-weight: bold;
+    color: black;
 }
 
 .logo{
@@ -39,6 +51,15 @@ html, body{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.time-counter-container h2{
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 17px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background: #A4A7AC;
 }
 
 .main-event-timer{
@@ -83,11 +104,22 @@ html, body{
 }
 
 .hero-three-rank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
     padding-bottom: 20px;
+    line-height: 17px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background: #A4A7AC;
 }
 
 .hero-three-nickname{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     color: #A4A7AC;
 }
@@ -121,6 +153,15 @@ html, body{
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: red;
+  }
+
+  .record-1{
+    padding: 0 30px;
+  }
+
+  .record{
+    padding: 0 40px;
+    border-left: 1px solid #A4A7AC;
   }
 
   .hero-three-record{
