@@ -48,6 +48,9 @@ html, body{
     padding-left: 100px;
     padding-right: 100px;
     color: white;
+}
+
+.main-event{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,10 +66,15 @@ html, body{
 }
 
 .main-event-timer{
+    margin-left: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+}
+
+.container-hour{
+
 }
 
 /* Start of Main Content */
@@ -91,7 +99,7 @@ html, body{
 }
 
 .hero-main-two{
-    margin-left: 15em;
+    margin-left: 20em;
 }
 
 .hero-main-two img{
@@ -112,7 +120,20 @@ html, body{
     line-height: 17px;
     padding: 2px 5px;
     border-radius: 2px;
-    background: #A4A7AC;
+    background: #42b883;
+}
+
+.hero-three-birthplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    line-height: 17px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background: #f78536;
 }
 
 .hero-three-nickname{
@@ -130,7 +151,7 @@ html, body{
 
 .line{
     width: 100%;
-    height: 1px;
+    height: 2px;
     border-radius: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -139,7 +160,7 @@ html, body{
 
   .line-two{
     width: 100%;
-    height: 1px;
+    height: 2px;
     border-radius: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -148,7 +169,7 @@ html, body{
 
   .line-three{
     width: 100%;
-    height: 1px;
+    height: 2px;
     border-radius: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -156,11 +177,16 @@ html, body{
   }
 
   .record-1{
-    padding: 0 30px;
+    padding: 0 50px;
   }
 
-  .record{
-    padding: 0 40px;
+  .record-2{
+    padding: 0 50px;
+    border-left: 1px solid #A4A7AC;
+  }
+
+  .record-3{
+    padding: 0 50px;
     border-left: 1px solid #A4A7AC;
   }
 
@@ -168,9 +194,14 @@ html, body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-}
+    }
 
   .wins, .losses, .decisions{
     font-size: 50px;
+  }
+
+  /* Start of Carousel Section */
+  
+  .carousel-section{
+    height: 70vh;
   }
